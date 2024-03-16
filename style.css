@@ -4,24 +4,26 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
-  
 }
 nav {
-  background-color: rgb(11, 38, 112);
-  overflow: hidden;
+  background-color: rgb(133, 176, 216);
+  /* Add this */
+  text-align: center;
 }
 ul{
   list-style-type: none;
   margin: 0px;
-  overflow: hidden;
   padding: 0px;
+  overflow: hidden;
 }
 li {
-  float: left;
+  /* float: inline-start; */
+  /* Remove float & add display */
+  display: inline-block;
     }
 
     a {
-      padding: 14px 16px;
+      padding: 10px 10px;
       display: block;
       text-decoration: none;
       color: rgb(7, 7, 7);
