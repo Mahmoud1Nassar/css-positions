@@ -1,33 +1,33 @@
 * {
 
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
-    
-}
-ul {
-    
-   
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  
 }
 nav {
-    background-color: black;
-    height: auto; /* Adjust height as needed */
-    display: flex; /* Use flexbox for nav */
-    justify-content: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    padding: 30px;
-    margin-top: 10px;
-    
+  background-color: rgb(11, 38, 112);
+  overflow: hidden;
 }
- li {
-    display: inline;
-    
-      }
+ul{
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+  padding: 0px;
+}
+li {
+  float: left;
+    }
 
-      a {
-        text-decoration: none;
-        color: white;
-        background-color: rgb(2, 33, 23);
-        
-      }
+    a {
+      padding: 14px 16px;
+      display: block;
+      text-decoration: none;
+      color: rgb(7, 7, 7);
+      background-color: rgb(133, 176, 216);
+      font-weight: bold;
+    }
+    a:hover{
+      background-color: gray;
+    }
